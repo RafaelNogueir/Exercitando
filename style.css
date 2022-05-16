@@ -26,8 +26,13 @@ header{
     background-image: linear-gradient(to bottom, #002F1F, #257A5E, #00C785);
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
     color: white;
+    background-image: url(footer-tacas-maior-campeao-2020-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
 }
 
 header h1{
@@ -41,18 +46,20 @@ header h1{
 header p {
     font-family: var(--fonte-destaque);
     font-size: 1.3em;
-    text-shadow: 4px 8px 8px rgba(0, 0, 0, 0.274);;
+    text-shadow: 4px 8px 8px rgba(0, 0, 0, 0.274);
+    padding: 5px;
 }
 
 nav{
     background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.219);
+    margin: auto;
 }
 
 nav a {
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -64,6 +71,7 @@ nav a:hover{
     background-color: var(--cor2);
     color: var(--cor4);
 }
+
 
 main{
     min-width: 300px;
@@ -100,7 +108,9 @@ main img{
     width: 80%;
     display: block;
     margin: auto;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 10%;
+
 }
 
 div.libertadores{
